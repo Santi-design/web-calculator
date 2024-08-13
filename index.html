@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/bf94378997.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet"> 
+</head>
+<body class="dark-mode">
+    <main class="calculator">
+        <header class="calculator__header">
+            <div class="calculator__switch-theme">
+                <button class="switch-theme__btn">
+                    <span class="header__icon" id="dark-icon"><i class="fa-solid fa-sun"></i></span>
+                    <span class="header__icon" id="light-icon"><i class="fa-solid fa-moon"></i></span>
+                </button>
+            </div>
+            <div class="calculator__display">
+                <div class="display__top"><span>45 X 24</span></div>
+                <div class="display__bottom"><span>1080</span></div>
+            </div>
+        </header>
+        <div class="calculator__body">
+            <div class="calculator__options">
+                <button class="calculator__history"><i class="fa-regular fa-clock"></i></button>
+                <button class="calculator__delete"><i class="fa-solid fa-delete-left"></i></button>
+            </div>
+            <div class="calculator__buttons">
+                <button class="calculator__button" id="clear">C</button>
+                <button class="calculator__button" id="parenthesis">()</button>
+                <button class="calculator__button" id="percentage">%</button>
+                <button class="calculator__button" id="division">/</button>
+                <button class="calculator__button" id="seven">7</button>
+                <button class="calculator__button" id="eight">8</button>
+                <button class="calculator__button" id="nine">9</button>
+                <button class="calculator__button" id="multiply">X</button>
+                <button class="calculator__button" id="four">4</button>
+                <button class="calculator__button" id="five">5</button>
+                <button class="calculator__button" id="six">6</button>
+                <button class="calculator__button" id="subtract">-</button>
+                <button class="calculator__button" id="one">1</button>
+                <button class="calculator__button" id="two">2</button>
+                <button class="calculator__button" id="three">3</button>
+                <button class="calculator__button" id="add">+</button>
+                <button class="calculator__button" id="change-sign">+/-</button>
+                <button class="calculator__button" id="zero">0</button>
+                <button class="calculator__button" id="decimal">.</button>
+                <button class="calculator__button" id="equal">=</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
