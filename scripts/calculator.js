@@ -26,8 +26,6 @@ const displayTop = document.querySelector(".display__top span");
 const buttons = document.querySelectorAll(".calculator__body button");
 
 const basicOperations = ['X', '+', '-', '/'];
-const
-
 buttons.forEach(button =>{
     button.addEventListener("click", ()=>{
         let pressed = button.textContent;
