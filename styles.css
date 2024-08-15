@@ -1,8 +1,6 @@
 :root {
     --primary-color: #F1AF60;
     --light-calculator: #FFF0D2;
-    --bg-color-invested: #111;
-    --bg-color: #eeeeee;
     --gray-color: #847D6A;
     --primary-button-color: #533D28;
     --secundary-button-color: #FFE3A9;
@@ -48,7 +46,6 @@ button{
     background-color: var(--light-calculator);
     display: flex;
     flex-direction: column;
-    max-width: 350px;
     margin: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
@@ -101,7 +98,7 @@ button{
 }
 
 .dark .switch-theme__btn > div {
-    transform: translateX(82%);
+    transform: translateX(81%);
     transition: transform ease .5s;
 }
 
@@ -136,6 +133,12 @@ display: none;
 .display__bottom span{
     font-size: 2rem;
     font-weight: 500;
+}
+
+.display__bottom{
+    max-width: 100%;
+    overflow: auto hidden;
+    scrollbar-width:thin;
 }
 
 /* -----CALCULATOR BODY----- */

@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/bf94378997.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet"> 
 </head>
-<body class="dark-mode">
+<body>
     <main class="calculator">
         <header class="calculator__header">
             <div class="calculator__switch-theme">
@@ -21,14 +21,14 @@
                 </button>
             </div>
             <div class="calculator__display">
-                <div class="display__top"><span>45 X 24</span></div>
-                <div class="display__bottom"><span>1080</span></div>
+                <div class="display__top"><span></span></div>
+                <div class="display__bottom"><span>0</span></div>
             </div>
         </header>
         <div class="calculator__body">
             <div class="calculator__options">
-                <button class="calculator__history"><i class="fa-regular fa-clock"></i></button>
-                <button class="calculator__delete"><i class="fa-solid fa-delete-left"></i></button>
+                <button class="calculator__history" id="history"><i class="fa-regular fa-clock"></i></button>
+                <button class="calculator__delete" id="delete"><i class="fa-solid fa-delete-left"></i></button>
             </div>
             <div class="calculator__buttons">
                 <button class="calculator__button" id="clean">C</button>
@@ -55,6 +55,7 @@
         </div>
     </main>
 
-    <script src="script.js"></script>
+    <script src="/scripts/switch_theme.js"></script>
+    <script src="/scripts/calculator.js"></script>
 </body>
 </html>
