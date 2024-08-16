@@ -27,6 +27,8 @@ body{
     display: grid;
     place-content: center;
     transition: all ease .3s;
+    margin: 0;
+    padding: 0;
 }
 
 .dark{
@@ -196,7 +198,7 @@ display: none;
     background-color: var(--primary-color);
 }
 
-@media screen and (max-width : 500px) {
+/* @media screen and (max-width : 500px) {
     :root{
         font-size: 22px;
     }
@@ -225,4 +227,4 @@ display: none;
         transform: translateX(85%);
         transition: transform ease 1s;
     }
-}
+} */
